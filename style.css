@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  margin: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+  
+    margin: 20px 0px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul{
+    display: flex;
+ align-items: center;
+ list-style: none;
+ 
+}
+.nav-list:hover{
+    color: hsl(5, 85%, 63%);
+}
+.nav-list{
+padding:0px 10px;
+color: #65616f;
+}
+
+.img1{
+    margin-top: 30px;
+   width: 100%;
+
+
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    
+}
+ .two-box{
+    display: flex;
+padding: 10px 0px;
+max-width: 150vh;
+
+ }
+
+ .h1{
+  padding-right: 10px;
+    font-weight: 400;
+ }
+
+ .section1{
+    height: 200%;
+ 
+ }
+
+ .readme{
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+  color:  hsl(36, 100%, 99%);
+  padding: 15px;
+  margin-top: 20px;
+ }
+ .readme:hover{
+    background-color: hsl(240, 100%, 5%);
+ }
+
+ .two-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+ }
+.sections2{
+    padding-top: 30px;
+}
+ .section2{
+    background-color:  hsl(240, 100%, 5%);
+    padding: 20px;
+    margin-left: 20px;
+  width: 40vh;
+
+
+ }
+
+ .new-h1{
+    color: hsl(36, 100%, 99%);
+
+ }
+ .new-h1:hover{
+       color: hsl(35, 77%, 62%);
+
+ }
+ .new-p1{
+    color: hsla(36, 100%, 99%, 0.596);
+ }
+
+ .new1{
+    color: hsl(35, 77%, 62%);
+ }
+ .section3{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  
+ }
+
+
+
+
+ .div1{
+    display: flex;
+    justify-content: space-between;
+ }
+ .img2{
+    height: 50%;
+ }
+ .die{
+    line-height: 200%;
+ }
+
+
+ .h3{
+    color: hsla(36, 11%, 53%, 0.596);
+ }
+ .para3{
+    color: hsla(36, 11%, 53%, 0.596);
+ }
+ .head3{
+    color: black;
+ }
+ .head3:hover{
+    color: hsl(5, 85%, 63%);
+ }
+ @media screen  and (max-width:930px) {
+    .sections3{
+          margin: 30px;
+          width: auto;
+    }
+    
+ }
+ @media screen  and (max-width:950px) {
+    .section3{
+        display: block;
+    }
+    
+ }
+ @media screen and (max-width
+  ) {
+    
+ }
